@@ -11,10 +11,6 @@ body {
   text-align: left;
   outline: none;
   border: none;
-  /* border: none;
-  outline: none;
-  transition: 0.4s;
- */
 }
 
 .accordion:hover {
@@ -24,6 +20,6 @@ body {
 .panel {
   padding: 0 18px;
   background-color: white;
-  /* display: none; */
+  display: none;
   overflow: hidden;
 }
