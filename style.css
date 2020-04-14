@@ -17,6 +17,18 @@ body {
   background-color: #ccc;
 }
 
+.accordion:after {
+  content: "\0271A";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\02212";
+}
+
 .panel {
   padding: 0 18px;
   background-color: white;
